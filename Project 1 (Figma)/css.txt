@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 64px;
+    align-items: center;
+    border-bottom: 1px solid #676767;
+}
+
+.banner ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.banner ul li {
+    border-right: 1px solid #676767;
+    padding-right: 16px;
+}
+
+.banner div {
+    display: flex;
+    gap: 12px;
+}
+
+.banner ul .end {
+    border: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 64px 12px 64px;
+}
+
+.navbar div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.navbar div h1 {
+    font-size: 26px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+}
+
+.input {
+    display: flex;
+    padding: 5px 15px;
+    border: 1px solid black;
+    gap: 12px;
+    border-radius: 5px;
+}
+
+.navbar input {
+    width: 43px;
+    border: none;
+    outline: none;
+}
+
+.navbar button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.navbar select {
+    border: none;
+}
+
+/* HEADER */
+
+.header {
+    background-image: url(./images/header/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 92vw;
+    padding: 0px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.header h1 {
+    width: 450px;
+    margin-bottom: 24px;
+    font-size: 56px;
+    color: white;
+}
+
+.header p {
+    width: 500px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    color: white;
+}
+
+.header button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.b1 {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.b2 {
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
+
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    padding: 112px 64px;
+    gap: 80px;
+    align-items: center;
+}
+
+.about div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about h1 {
+    font-size: 48px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.about img {
+    width: 100%;
+    
+}
+
+
+.about button {
+    margin-top: 24px;
+    width: 145px;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* PARTNERS */
+
+.partners {
+    display: flex;
+    padding: 80px 64px;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+}
+
+.partners h1 {
+    font-size: 24px;
+    width: 320px;
+}
+
+.partners div {
+    gap: 19px;
+}
+
+/* SERVICES */
+
+.services {
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+}
+
+.services div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 16px;
+    gap: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    width: 266px;
+}
+
+.services h1 {
+    font-size: 20px;
+}
+
+.services button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* DOCTORS */
+
+.doctors {
+    padding: 112px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.jaziw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.jaziw h6 {
+    font-size: 16px;
+}
+
+.jaziw h1 {
+    font-size: 56px;
+}
+
+.jaziw p {
+    font-size: 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.doctors button {
+    width: 120px;
+    height: 48px;
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 45%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* PAY */
+ 
+.pay {
+    display: flex;
+    padding: 112px 64px;
+    gap: 80px;
+    align-items: center;
+
+}
+
+.pay div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pay h1 {
+    font-size: 48px;
+}
+
+.pay p {
+    font-size: 20px;
+}
+
+.pay img {
+    width: 100%;
+    
+}
+
+
+.pay button {
+    margin-top: 24px;
+    width: 150px;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* BLOG */
+
+.blog {
+    padding: 64px 112px;
+}
+
+.orta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    gap: 32px;
+}
+
+.orta h6 {
+    font-size: 14px;
+}
+
+.orta h1 {
+    font-size: 24px;
+}
+
+.blog button {
+    margin-top: 64px;
+    margin-left: 45%;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FINISH */
+
+.finish {
+    padding: 80px;
+    color: white;
+    background-color: black;
+    gap: 80px;
+}
+.f1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f1 h1 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.f1 p {
+    font-size: 14px;
+}
+.f1 a{
+    border-bottom: 1px solid white;
+}
+.f1 input {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.f1 button {
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 12px;  
+    cursor: pointer;  
+    border-radius: 10px;
+}
+.f2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+.f2 .logo{
+    display: flex;
+    align-items: flex-start;
+}
+.f2 p {
+    padding: 8px 0;
+    font-size: 14px;
+}
+.f2 h3 {
+    font-size: 16px;
+    margin-bottom: 16px;
+} 
+.f3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    border-top: 1px solid white;
+    padding-top: 32px;
+}
+.f3 a {
+    border-bottom: 1px solid white;
+    margin-left: 24px;
+}
+

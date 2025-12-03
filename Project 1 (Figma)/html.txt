@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Beauty</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- BANNER -->
+    <div id="asad" class="banner">
+        <ul>
+            <li>Phone Number: 956 742 455 678</li>
+            <li>Email:info@ddsgnr.com</li>
+            <li>My Chart</li>
+            <li class="end">Pay Bill</li>
+        </ul>
+
+        <div>
+            <img src="./images/banner/facebook.png" alt="">
+            <img src="./images/banner/instagram.png" alt="">
+            <img src="./images/banner/twitter.png" alt="">
+            <img src="./images/banner/linkedIn.png" alt="">
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div>
+            <img src="./images/navbar/logo.png" alt="">
+            <h1>Raxat</h1>
+        </div>
+
+        <ul>
+            <li>Home</li>
+            <li>Doctors</li>
+            <li>Services <select name="" id=""></select></li>
+            <li>Location <select name="" id=""></select></li>
+            <li>About Us</li>
+            <li class="input">
+                <input type="text" placeholder="Search">
+                <img src="./images/navbar/search.png" alt="">
+            </li>
+            <button>Schedule Appointment</button>
+        </ul>
+    </div>
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>Life-Saving Care, Close to Home</h1>
+        <p>Our expert team of doctors and nurses provide personalized care to meet your individual needs.</p>
+        <div>
+            <button class="b1">Schedule Appointment</button>
+            <button class="b2">Find A Doctor</button>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="about">
+        <div>
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                erat.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                erat.</p>
+            <button>Find A Doctor</button>
+        </div>
+        <div>
+        <img src="./images/about/image.png" alt="">
+    </div>
+    </div>
+
+    <!-- PARTNERS -->
+    <div class="partners">
+        <h1>Trusted by 2000+ companies worldwide.</h1>
+        <div>
+            <img src="./images/partners/img-1.png" alt="">
+            <img src="./images/partners/img-2.png" alt="">
+            <img src="./images/partners/img-3.png" alt="">
+            <img src="./images/partners/img-4.png" alt="">
+            <img src="./images/partners/img-5.png" alt="">
+            <img src="./images/partners/img-6.png" alt="">
+        </div>
+
+    </div>
+
+    <!-- SERVICES -->
+    <div class="services">
+        <div>
+            <img src="./images/services/calendar.png" alt="">
+            <h1>Schedule Appointment</h1>
+            <button>Schedule Appointment</button>
+        </div>
+
+        <div>
+            <img src="./images/services/location.png" alt="">
+            <h1>Find A Doctor</h1>
+            <button>Find A Doctor</button>
+        </div>
+
+        <div>
+            <img src="./images/services/note.png" alt="">
+            <h1>Find Health Care Near You</h1>
+            <button>Find A Location</button>
+        </div>
+
+        <div>
+            <img src="./images/services/story.png" alt="">
+            <h1>My Chart</h1>
+            <button>Sign In</button>
+        </div>
+    </div>
+
+    <!-- DOCTORS -->
+    <div class="doctors">
+        <div class="jaziw">
+            <h6>Doctors</h6>
+            <h1>Doctors</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+
+        <div class="top">
+            <div>
+                <img src="./images/doctors/img-1.png" alt="">
+                <h1>Dr. Mazen E. Ganim</h1>
+                <p>MBBS, MS, Mch Urology</p>
+                <h6>Family Medicine</h6>
+            </div>
+            <div>
+                <img src="./images/doctors/img-2.png" alt="">
+                <h1>Dr. Jessica E. Axe</h1>
+                <p>MBBS, MD, DM Rheumatology</p>
+                <h6>Pathology</h6>
+            </div>
+            <div>
+                <img src="./images/doctors/img-3.png" alt="">
+                <h1>Dr. Howard D. Axe</h1>
+                <p>MBBS, MD Anesthesia</p>
+                <h6>Obstetrics</h6>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            <div>
+                <img src="./images/doctors/img-4.png" alt="">
+                <h1>Dr. Mahsa Rezaei, MD</h1>
+                <p>MBBS, MD, DM Cardiology</p>
+                <h6>Emergency Medicine</h6>
+            </div>
+            <div>
+                <img src="./images/doctors/img-5.png" alt="">
+                <h1>Dr. Dilip Anmangandla, MD</h1>
+                <p>MBBS, MS Gyne & Obs</p>
+                <h6>Urology</h6>
+            </div>
+            <div>
+                <img src="./images/doctors/img-6.png" alt="">
+                <h1>Dr. Marion Carson, MD</h1>
+                <p>MBBS, MS, Mch Neurosurgery</p>
+                <h6>Neurology</h6>
+            </div>
+        </div>
+        <button>View More</button>
+    </div>
+
+    <!-- PAY -->
+    <div class="pay">
+            <div>
+                <h1>Pay Your Bill</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae
+                    erat.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae
+                    erat.</p>
+                <button>Pay Your Bill</button>
+            </div>
+            <div>
+            <img src="./images/pay/image.png" alt="">
+        </div>
+    </div>
+    <!--PAY  -->
+    <div class="pay">
+            <div>
+            <img src="./images/career/image.png" alt="">
+        </div>
+            <div>
+                <h1>Make A Good Career</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae
+                    erat.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae
+                    erat.</p>
+                <button>Explore Careers</button>
+            </div>
+    </div>
+
+    <!-- BLOG -->
+    <div class="blog">
+        <div class="jaziw">
+            <h6>Blog</h6>
+            <h1>Health Information</h1>
+            <p>This section should provide you with educational resources on health and wellness topics, including
+                prevention, treatment, and managing chronic conditions</p>
+        </div>
+        <div class="orta">
+            <div>
+                <img src="./images/blog/img-1.png" alt="">
+                <h6>Toddler</h6>
+                <h1>Mindfulness Activities for Kids & Toddlers</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            </div>
+
+
+            <div>
+                <img src="./images/blog/img-2.png" alt="">
+                <h6>Toddler</h6>
+                <h1>Mindfulness Activities for Kids & Toddlers</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            </div>
+
+
+            <div>
+                <img src="./images/blog/img-3.png" alt="">
+                <h6>Toddler</h6>
+                <h1>Mindfulness Activities for Kids & Toddlers</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            </div>
+        </div>
+        <button>View all</button>
+    </div>
+
+    <!--FINISH -->
+    <div class="finish">
+        <div class="f1">
+            <div>
+                <h1>Subscribe to our newsletter</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div>
+                <div>
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                    <p>By subscribing you agree to with our <a>Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="f2">
+            <div class="logo">
+                <img src="./Frame 1.svg" alt="">
+                <h1>Ddsgnr</h1>
+            </div>
+            <div>
+                <h3>Explore</h3>
+                <p>Find A Doctor</p>
+                <p>Location</p>
+                <p>My Chart</p>
+                <p>Pay A Bill</p>
+                <p>Blog</p>
+            </div>
+            <div>
+                <h3>Resources</h3>
+                <p>Career</p>
+                <p>Communities Servies</p>
+                <p>Blog</p>
+                <p>Voluntering</p>
+                <p>Jobs</p>
+            </div>
+            <div>
+                <h3>About Us</h3>
+                <p>Contact</p>
+                <p>Help/Support</p>
+                <p>FAQ</p>
+                <p>Terms and Conditions</p>
+                <p>Partners</p>
+            </div>
+        </div>
+        <div class="f3">
+            <div >
+                <p>2023 Ddsgnr. All right reserved.
+                    <a>Privacy Policy</a>
+                    <a>Team of Service</a>
+                    <a>Cookie Settings</a>
+                </p>
+            </div>
+            <div>
+                <img src="./images/banner/logo black bacground/Facebook.svg" alt="">
+                <img src="./images/banner/logo black bacground/Instagram.svg" alt="">
+                <img src=".//images/banner/logo black bacground/Twitter.svg" alt="">
+                <img src="./images/banner/logo black bacground/LinkedIn.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    </body>
+
+</html>
